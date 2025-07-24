@@ -11,7 +11,7 @@ const packageJson = require('../package.json');
 
 program
   .name('devkit')
-  .description('A CLI tool to simplify Git branch merging workflow')
+  .description('A CLI tool to simplify dev workflow')
   .version(packageJson.version);
 
 // Merge command
