@@ -16,7 +16,7 @@ program
 
 // Merge command
 program
-  .command('merge')
+  .command('mergeto')
   .description('Merge current branch into target branch')
   .argument('<target-branch>', 'Target branch to merge into')
   .option('-d, --dry-run', 'Show what would be done without executing')
