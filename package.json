@@ -1,0 +1,46 @@
+{
+  "name": "devkit",
+  "version": "1.0.0",
+  "description": "A CLI tool to simplify dev workflow",
+  "main": "dist/index.js",
+  "bin": {
+    "devkit": "./bin/devkit.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build",
+  },
+  "keywords": [
+    "cli",
+    "git",
+    "merge",
+    "branch",
+    "devops",
+    "workflow"
+  ],
+  "author": "wangkaiwd",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "simple-git": "^3.20.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "inquirer": "^8.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/inquirer": "^9.0.7",
+    "typescript": "^5.2.0",
+    "ts-node": "^10.9.0"
+  },
+  "files": [
+    "dist/**/*",
+    "bin/**/*",
+    "README.md",
+    "LICENSE"
+  ]
+} 
