@@ -1,5 +1,5 @@
 {
-  "name": "devkit",
+  "name": "@sppk/devkit",
   "version": "1.0.0",
   "description": "A CLI tool to simplify dev workflow",
   "main": "dist/index.js",
@@ -10,6 +10,9 @@
     "build": "tsc",
     "dev": "ts-node src/index.ts",
     "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "cli",

@@ -15,7 +15,7 @@ CLI 工具，用于简化项目开发过程中的常用命令
 ### 全局安装（推荐）
 
 ```bash
-pnpm install -g devkit
+pnpm install -g @sppk/devkit
 ```
 
 ### 本地开发
